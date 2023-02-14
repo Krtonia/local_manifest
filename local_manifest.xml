@@ -1,50 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
-  <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
-<!--Trees-->
-  <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
-           remote="Krtonia"
-           revision="blaze" />
-           
-  <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
-           remote="Krtonia"
-           revision="blaze-13" />
-           
-  <project path="vendor/xiaomi"
-           name="beryllium-vendor"
-           remote="Krtonia"
-           revision="main" />
-           
-  <project path="kernel/xiaomi/sdm845"
-           name="Silvercore"
-           remote="Krtonia"
-           revision="thirteen" />
+<remote name="Krtonia" fetch="https://github.com/Krtonia" />
+<remote name="bery-test" fetch="https://github.com/bery-test" />
+<remote name="Panchajanya Sarkar" fetch="https://gitlab.com/Panchajanya1999" />
+<remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+<remote name="varun" fetch="https://gitlab.com/varunhardgamer" />
+
+  <!--Trees-->
+  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Krtonia" revision="vos" />
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="Krtonia" revision="vos-13" />        
+  <project path="vendor/xiaomi" name="beryllium-vendor" remote="Krtonia" revision="main" />
+  <project path="kernel/xiaomi/sdm845" name="Silvercore" remote="Krtonia" revision="thirteen" />
   
-<!--Removals-->
-  <remove-project name="hardware_xiaomi" />
+  <!--Removals-->
+  <remove-project name="frameworks_base" />
+  <remove-project name="packages_apps_Powerhub" />
+  <remove-project name="vendor_voltage" />
   
-<!-- Hardware -->
-  <project path="hardware/xiaomi" 
-           name="android_hardware_xiaomi" 
-           remote="ArrowOS-Devices" 
-           revision="arrow-13.0" />
+  <!--Custom-->
+  <project path="frameworks/base" name="vos-fwb" remote="bery-test" revision="test" />
+  <project path="packages/apps/Powerhub" name="Powerhub" remote="bery-test" revision="test" />
+  <project path="vendor/voltage" name="vendor_volt" remote="bery-test" revision="test" />
   
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton"
-           name="proton-clang"
-           remote="kdrag0n"
-           revision="master" clone-depth="1" />
+  <!-- (Clang) -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Dooms-v" revision="master" clone-depth="1" />
+  
+  <!-- project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" /> -->
   
 </manifest>
