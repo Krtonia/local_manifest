@@ -19,9 +19,9 @@
   <remove-project name="vendor_voltage" />
   
   <!--Custom-->
-  <project path="frameworks/base" name="vos-fwb" remote="bery-test" revision="test" />
-  <project path="packages/apps/Powerhub" name="Powerhub" remote="bery-test" revision="test" />
-  <project path="vendor/voltage" name="vendor_volt" remote="bery-test" revision="test" />
+  <project path="frameworks/base" name="vos-fwb" remote="Krtonia" revision="test" />
+  <project path="packages/apps/Powerhub" name="Powerhub" remote="Krtonia" revision="test" />
+  <project path="vendor/voltage" name="vendor_volt" remote="Krtonia" revision="test" />
   
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
