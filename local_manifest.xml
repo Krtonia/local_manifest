@@ -17,18 +17,15 @@
   <remove-project name="frameworks_base" />
   <remove-project name="packages_apps_Powerhub" />
   <remove-project name="vendor_voltage" />
+  <remove-project name="packages_apps_Settings" />
   
   <!--Custom-->
-  <project path="frameworks/base" name="vos-fwb" remote="Krtonia" revision="test" />
-  <project path="packages/apps/Powerhub" name="Powerhub" remote="Krtonia" revision="test" />
-  <project path="vendor/voltage" name="vendor_volt" remote="Krtonia" revision="test" />
+  <project path="frameworks/base" name="vos-fwb" remote="bery-test" revision="test" />
+  <project path="packages/apps/Powerhub" name="Powerhub" remote="bery-test" revision="test" />
+  <project path="vendor/voltage" name="vendor_volt" remote="bery-test" revision="test" />
+  <project path="packages/apps/Settings" name="Settings-vos" remote="bery-test" revision="test" />
   
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-
-  <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Krtonia" revision="master" clone-depth="1" />
-  
-  <!-- project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" clone-depth="1" revision="14" remote="varun" /> -->
   
 </manifest>
