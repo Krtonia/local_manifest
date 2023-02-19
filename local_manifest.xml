@@ -35,12 +35,6 @@
            name="android_hardware_xiaomi" 
            remote="ArrowOS-Devices" 
            revision="arrow-13.0" />
-  
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/trb_clang"
