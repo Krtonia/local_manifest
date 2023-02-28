@@ -20,9 +20,9 @@
   <remove-project name="packages_apps_Settings" />
   
   <!--Custom-->
-  <project path="frameworks/base" name="vos-fwb" remote="bery-test" revision="13" />
-  <project path="packages/apps/Powerhub" name="Powerhub" remote="bery-test" revision="13" />
-  <project path="vendor/voltage" name="vendor_volt" remote="bery-test" revision="13" />
+  <project path="frameworks/base" name="vos-fwb" remote="bery-test" revision="main" />
+  <project path="packages/apps/Powerhub" name="Powerhub" remote="bery-test" revision="main" />
+  <project path="vendor/voltage" name="vendor_volt" remote="bery-test" revision="main" />
   <project path="packages/apps/Settings" name="Settings-vos" remote="bery-test" revision="13" />
   
   <!-- (Clang) -->
