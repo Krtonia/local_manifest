@@ -10,7 +10,7 @@
   <!--Trees-->
   <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Krtonia" revision="vos" />
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="Krtonia" revision="super" />        
-  <project path="vendor/xiaomi" name="beryllium-vendor" remote="Krtonia" revision="main" />
+  <project path="vendor/xiaomi" name="beryllium-vendor" remote="Krtonia" revision="13" />
   <project path="kernel/xiaomi/sdm845" name="Silvercore" remote="Krtonia" revision="main" />
   
   <!-- (Clang) -->
