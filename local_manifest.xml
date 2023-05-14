@@ -3,6 +3,7 @@
   <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
+  <remote  name="arrow" fetch="https://github.com/ArrowOS" review="https://review.arrowos.net/" revision="refs/heads/arrow-13.1" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
@@ -27,6 +28,8 @@
            remote="Krtonia"
            revision="13" />
   
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
+  
 <!--Removals-->
   <remove-project name="hardware_xiaomi" />
   
@@ -36,11 +39,11 @@
            remote="ArrowOS-Devices" 
            revision="arrow-13.0" />
   
-<!--Clang--> 
+<!--Clang 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
            name="clang-r450784d" 
            remote="ImSurajxD" 
-           revision="master" />
+           revision="master" -->
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/trb_clang"
