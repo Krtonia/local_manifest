@@ -38,11 +38,11 @@
            remote="ArrowOS-Devices" 
            revision="arrow-13.0" />
   
-<!--Clang 
+<!--Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
            name="clang-r450784d" 
            remote="ImSurajxD" 
-           revision="master" -->
+           revision="master" /> 
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/trb_clang"
