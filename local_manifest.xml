@@ -27,8 +27,6 @@
            remote="Krtonia"
            revision="13" />
   
-  <project path="external/tinyxml" name="android_external_tinyxml" remote="arrow" />
-  
 <!--Removals-->
   <remove-project name="hardware_xiaomi" />
   
