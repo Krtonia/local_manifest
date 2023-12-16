@@ -10,42 +10,16 @@
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Krtonia"
-           revision="blaze" />
+           revision="blaze-14" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
            remote="Krtonia"
-           revision="blaze-13" />
+           revision="14" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Krtonia"
-           revision="main" />
-           
-  <project path="kernel/xiaomi/sdm845"
-           name="kawaii_kernel_sdm845"
-           remote="Krtonia"
-           revision="13" />
-  
-<!--Removals-->
-  <remove-project name="hardware_xiaomi" />
-  
-<!-- Hardware -->
-  <project path="hardware/xiaomi" 
-           name="android_hardware_xiaomi" 
-           remote="ArrowOS-Devices" 
-           revision="arrow-13.0" />
-  
-<!--Clang-->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" /> 
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
-           revision="17" clone-depth="1" />
+           revision="14" />
   
 </manifest>
