@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
+  <remote name="bery-test" fetch="https://github.com/bery-test"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
@@ -10,7 +11,7 @@
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Krtonia"
-           revision="evo-14" />
+           revision="derp-14" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
@@ -20,6 +21,27 @@
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Krtonia"
+           revision="14" />
+  
+  <!-- Removals-->
+  <remove-project name="frameworks_base" />
+  <remove-project name="packages_apps_Settings" />
+  <remove-project name="vendor_overlay" />
+
+  <!-- custom -->
+  <project path="frameworks/base"
+           name="derp-fwb"
+           remote="bery-test"
+           revision="14" />
+
+  <project path="packages/apps/Settings"
+           name="derp-settings"
+           remote="bery-test"
+           revision="14" />
+
+  <project path="vendor/overlay"
+           name="vendor_overlay-derp"
+           remote="bery-test"
            revision="14" />
   
 </manifest>
