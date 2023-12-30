@@ -11,7 +11,7 @@
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Krtonia"
-           revision="derp-14" />
+           revision="awk-14" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
@@ -26,22 +26,21 @@
   <!-- Removals-->
   <remove-project name="frameworks_base" />
   <remove-project name="packages_apps_Settings" />
-  <remove-project name="vendor_overlay" />
 
   <!-- custom -->
   <project path="frameworks/base"
-           name="derp-fwb"
+           name="awaken-fwb"
            remote="bery-test"
-           revision="14" />
+           revision="ursa" />
 
   <project path="packages/apps/Settings"
-           name="derp-settings"
+           name="awaken-settings"
            remote="bery-test"
-           revision="14" />
+           revision="ursa" />
 
-  <project path="vendor/overlay"
-           name="vendor_overlay-derp"
+  <project path="packages/apps/GameSpace"
+           name="awaken_GameSpace"
            remote="bery-test"
-           revision="14" />
+           revision="ursa" />
   
 </manifest>
