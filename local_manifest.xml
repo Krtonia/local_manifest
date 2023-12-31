@@ -24,12 +24,18 @@
            revision="14" />
   
   <!-- Removals-->
-  <remove-project name="frameworks_base" />
-  <remove-project name="packages_apps_Settings" />
-
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_vendor_awaken" />
+  
   <!-- custom -->
   <project path="frameworks/base"
            name="awaken-fwb"
+           remote="bery-test"
+           revision="ursa" />
+
+  <project path="vendor/awaken"
+           name="vendor_awaken"
            remote="bery-test"
            revision="ursa" />
 
