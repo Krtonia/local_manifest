@@ -22,6 +22,11 @@
            name="beryllium-vendor"
            remote="Krtonia"
            revision="14" />
+
+  <project path="kernel/xiaomi/sdm845"
+           name="Radioactive_kernel"
+           remote="Krtonia"
+           revision="14" />
   
   <!-- Removals-->
   <remove-project name="android_frameworks_base" />
