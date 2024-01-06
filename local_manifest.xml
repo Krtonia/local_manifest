@@ -37,21 +37,21 @@
   <project path="frameworks/base"
            name="awaken-fwb"
            remote="bery-test"
-           revision="ursa" />
+           revision="triton" />
 
   <project path="vendor/awaken"
            name="vendor_awaken"
            remote="bery-test"
-           revision="ursa" />
+           revision="triton" />
 
   <project path="packages/apps/Settings"
            name="awaken-settings"
            remote="bery-test"
-           revision="ursa" />
+           revision="triton" />
 
   <project path="packages/apps/GameSpace"
            name="awaken_GameSpace"
            remote="bery-test"
-           revision="ursa" />
+           revision="triton" />
   
 </manifest>
