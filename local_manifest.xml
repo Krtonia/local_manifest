@@ -24,14 +24,17 @@
            revision="13" />
 
   <project path="kernel/xiaomi/sdm845"
-           name="Radioactive_kernel"
+           name="Silvercore"
            remote="Krtonia"
-           revision="14" />
+           revision="thirteen" />
   
   <!-- Removals-->
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_vendor_awaken" />
+  <remove-project name="android_frameworks_native" />
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="android_packages_modules_Bluetooth" />
   
   <!-- custom -->
   <project path="frameworks/base"
@@ -51,6 +54,21 @@
 
   <project path="packages/apps/GameSpace"
            name="awaken_GameSpace"
+           remote="bery-test"
+           revision="triton" />
+
+  <project path="frameworks/av"
+           name="awk-fw-av"
+           remote="bery-test"
+           revision="triton" />
+
+  <project path="frameworks/native"
+           name="awk-fw-native"
+           remote="bery-test"
+           revision="triton" />
+
+  <project path="packages/modules/Bluetooth"
+           name="module-bluetooth"
            remote="bery-test"
            revision="triton" />
   
