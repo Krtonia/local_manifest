@@ -35,6 +35,12 @@
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_packages_modules_Bluetooth" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi"
+           name="arrow-hardware"
+           remote="Krtonia"
+           revision="arrow-13.0" />
   
   <!-- custom -->
   <project path="frameworks/base"
