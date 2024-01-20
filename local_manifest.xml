@@ -16,9 +16,11 @@
   <!-- removals -->
   <remove-project name="frameworks_base" />
   <remove-project name="vendor_voltage" />
+  <remove-project name="packages_apps_Powerhub" />
 
   <!-- custom -->
   <project path="frameworks/base" name="vos-fwb" remote="bery-test" revision="14" />
   <project path="vendor/voltage" name="vendor-voltage" remote="bery-test" revision="14" />
+  <project path="packages/apps/Powerhub" name="Powerhub" remote="bery-test" revision="14" />
   
 </manifest>
