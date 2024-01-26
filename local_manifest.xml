@@ -11,7 +11,7 @@
   <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="Krtonia" revision="vos-14" />
   <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="Krtonia" revision="14" />        
   <project path="vendor/xiaomi" name="beryllium-vendor" remote="Krtonia" revision="14" />
-  <project path="kernel/xiaomi/sdm845" name="Radioactive_kernel" remote="Krtonia" revision="14" />
+  <project path="kernel/xiaomi/sdm845" name="Radioactive_kernel" remote="Krtonia" revision="pw" />
 
   <!-- removals -->
   <remove-project name="frameworks_base" />
