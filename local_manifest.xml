@@ -19,11 +19,13 @@
   <remove-project name="packages_apps_Settings" />
   <remove-project name="vendor_voltage" />
   <remove-project name="packages_apps_ThemePicker" />
+  <remove-project name="LineageOS/android_hardware_xiaomi" />
   
   <!-- custom -->
   <project path="frameworks/base" name="frameworks_base" remote="vos-b" revision="14" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="vos-b" revision="14" />
   <project path="vendor/voltage" name="vendor_voltage" remote="vos-b" revision="14" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="vos-b" revision="14" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="vos-b" revision="lineage-21" />
   
 </manifest>
