@@ -5,6 +5,7 @@
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="vos-b" fetch="https://github.com/Voltage-Beryllium" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -21,5 +22,14 @@
            name="beryllium-vendor"
            remote="Krtonia"
            revision="14" />
-  
+
+  <project path="hardware/xiaomi" 
+           name="hardware_xiaomi" 
+           remote="vos-b" 
+           revision="lineage-21" />
+
+  <project path="kernel/xiaomi/sdm845"
+           name="Radioactive_kernel"
+           remote="Krtonia"
+           revision="14" />
 </manifest>
